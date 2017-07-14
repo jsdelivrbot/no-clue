@@ -18,7 +18,6 @@ import { AppComponent } from './containers/app/app.component';
 import { RiddlePageComponent } from './containers/riddle-page/riddle-page.component';
 import { RiddlesMainPageComponent} from './containers/riddles-main-page/riddles-main-page.component';
 import { HeaderComponent } from './containers/header/header.component';
-import { SidenavComponent } from './containers/sidenav/sidenav.component';
 
 // Services
 import { GetRiddlesService } from './services/get-riddles.service';

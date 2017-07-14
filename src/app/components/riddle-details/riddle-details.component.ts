@@ -35,4 +35,8 @@ export class RiddleDetailsComponent implements OnInit, OnDestroy {
     this.sub.unsubscribe();
   }
 
+  public riddleClicked() {
+
+  }
+
 }

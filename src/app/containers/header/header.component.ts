@@ -17,7 +17,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  private headerClicked() {
+  public headerClicked() {
     this.router.navigate([`./riddles`]);
   }
 

@@ -21,7 +21,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class RiddleThumbnailComponent implements OnInit {
 
   @Input() riddle: Riddle;
-  private getHeaderClass(): string {
+  public getHeaderClass(): string {
     return this.riddle.difficulty >= 8 ? 'riddle-thumbnail-header-easy'
       : this.riddle.difficulty <= 3 ? 'riddle-thumbnail-header-hard'
       : 'riddle-thumbnail-header-medium';
@@ -32,7 +32,7 @@ export class RiddleThumbnailComponent implements OnInit {
   ngOnInit() {
   }
 
-  private riddleClicked() {
+  public riddleClicked() {
     this.router.navigate([`./riddles/${this.riddle.id}`]);
   }
 
