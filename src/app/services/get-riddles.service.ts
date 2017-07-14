@@ -9,6 +9,7 @@ export class GetRiddlesService {
 
   // Get all posts from the API
   getAllRiddles() {
+    console.log('hi');
     return this.http.get('/api/riddles')
       .map(res => res.json());
   }

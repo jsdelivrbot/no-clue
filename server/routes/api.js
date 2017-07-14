@@ -7,9 +7,18 @@ const API = 'https://jsonplaceholder.typicode.com';
 
 
 const riddlesDummy = [
-        {id: 1, name: 'generals'},
-        {id: 2, name: 'horses'},
-        {id: 3, name: 'dwarfs'}
+        {id: 1, name: '7 Generals', difficulty: 10},
+        {id: 2, name: 'Who is the fastest horse', difficulty: 6},
+        {id: 3, name: 'Dwarfs and hats', difficulty: 3},
+        {id: 4, name: 'Is castling allowed?', difficulty: 9},
+        {id: 5, name: 'The rabbit inside the hat', difficulty: 1},
+        {id: 6, name: 'Acrobat in a cave', difficulty: 7},
+        {id: 7, name: '99 English and one Israeli on a plane', difficulty: 8},
+        {id: 8, name: 'How many bricks till it falls?', difficulty: 5},
+        {id: 9, name: '12 Coins on a scale', difficulty: 2},
+        {id: 10, name: 'Find the poisoned wine ', difficulty: 4},
+        {id: 11, name: 'Coins game on a circle table', difficulty: 9},
+        {id: 12, name: 'Guess my 5th card', difficulty: 2},
       ];
 
 

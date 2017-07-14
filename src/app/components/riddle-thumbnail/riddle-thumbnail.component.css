@@ -1,0 +1,38 @@
+.riddle-thumbnail-container {
+  margin-right:1em;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.riddle-thumbnail {
+  height: 200px;
+  width: 200px;
+
+  box-shadow: 2px 2px 7px rgba(136, 136, 136, 0.26);
+
+}
+
+.riddle-thumbnail:hover {
+box-shadow: 1px 1px 24px #888888;
+
+}
+
+.riddle-thumbnail-header {
+  padding: 11px;
+    border-bottom: 1px solid lightgrey;
+    font-weight: bold;
+    font-family: cursive;
+    height: 45px;
+}
+
+.riddle-thumbnail-header-easy {
+  background: lightskyblue;
+}
+
+.riddle-thumbnail-header-medium {
+  background: lightseagreen;
+}
+
+.riddle-thumbnail-header-hard {
+  background: rgba(255, 0, 0, 0.58);
+}
